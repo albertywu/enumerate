@@ -1,0 +1,19 @@
+{
+  "name": "enumerate",
+  "version": "1.0.0",
+  "description": "human-friendly enumeration of words",
+  "main": "enumerate.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "enumerate",
+    "words"
+  ],
+  "author": "Albert Wu <albertywu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "expect": "1.20.2",
+    "mocha": "3.0.2"
+  }
+}

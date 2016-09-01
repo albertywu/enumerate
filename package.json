@@ -20,5 +20,9 @@
   "devDependencies": {
     "expect": "1.20.2",
     "mocha": "3.0.2"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=6.0.0"
   }
 }

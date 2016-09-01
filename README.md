@@ -1,5 +1,5 @@
 ## enumerate-words
-a human-friendly enumeration of words
+A human-friendly enumeration of words. No oxford comma ;)
 
 ## install
 `npm install enumerate-words`

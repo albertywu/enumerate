@@ -1,4 +1,4 @@
-## enumerate
+## enumerate-words
 a human-friendly enumeration of words
 
 ## install

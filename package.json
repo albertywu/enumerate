@@ -6,10 +6,15 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertywu/enumerate.git"
+  },
   "keywords": [
     "enumerate",
     "words"
   ],
+  "homepage": "https://github.com/albertywu/enumerate",
   "author": "Albert Wu <albertywu@gmail.com>",
   "license": "MIT",
   "devDependencies": {

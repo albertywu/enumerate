@@ -22,7 +22,7 @@ describe('enumerate', function() {
       ],
       [
         [['Rick', 'Boris', 'Albert'], 4, 'People'],
-        'Rick, Boris and Albert'
+        'Rick, Boris, and Albert'
       ],
       [
         [['Rick', 'Boris', 'Albert', 'Parag'], 4, 'People'],

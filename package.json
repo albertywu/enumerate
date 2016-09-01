@@ -1,5 +1,5 @@
 {
-  "name": "enumerate",
+  "name": "enumerate-words",
   "version": "1.0.0",
   "description": "human-friendly enumeration of words",
   "main": "enumerate.js",

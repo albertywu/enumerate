@@ -35,7 +35,9 @@ Assumes that your javascript runtime supports the following ES6 features:
 
 ## contributing
 Clone the repo, and do:
+
 `npm install`
+
 `npm test`
 
 Put up a PR when tests pass!

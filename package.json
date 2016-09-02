@@ -1,6 +1,6 @@
 {
   "name": "enumerate-words",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "human-friendly enumeration of words",
   "main": "./enumerate.js",
   "main:esnext": "./enumerate.es6.js",

@@ -57,4 +57,20 @@ describe('enumerate', function() {
     })
   })
 
+  describe('testing different AND optional for localized', function() {
+    it('should be able to be localized', function() {
+    expect(
+        enumerate(['Rob', 'Bob', 'Todd'], 4, 'people', '&')
+    ).toBe('Rob, Bob, & Todd')
+    })
+  })
+
+  describe('testing the optional oxford comma', function() {
+    it('should not insert the oxford comma', function() {
+        expect(
+            enumerate(['Rob', 'Bob', 'Todd'], 4, 'people', '&', true)
+        ).toBe('Rob, Bob & Todd')
+    });
+  });
+
 })

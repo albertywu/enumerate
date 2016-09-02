@@ -26,17 +26,17 @@ console.log(enumerate(['Screwdriver', 'Hammer', 'Drill'], 3, 'Thingamabobs')) //
 console.log(enumerate(['Screwdriver', 'Hammer'], 3)) // 'Screwdriver and Hammer'
 ```
 
-## caveats (ES6 only!)
-Assumes that your javascript runtime supports the following ES6 features:
-* const
-* array destructuring
-* default params
-* string interpolation
-
 ## contributing
-Clone the repo, and do:
+Install
 
 `npm install`
+
+Build
+
+`npm run build`
+`npm run watch`
+
+Test
 
 `npm test`
 

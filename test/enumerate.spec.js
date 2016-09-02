@@ -1,4 +1,4 @@
-const enumerate = require('../enumerate')
+const enumerate = require('../enumerate').enumerate
 const expect = require('expect')
 
 describe('enumerate', function() {

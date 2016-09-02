@@ -8,10 +8,10 @@ A human-friendly enumeration of words. Uses oxford comma ;)
 ```typescript
 enumerate({
   words: string[],
-  cutoff?: number,
-  placeholder?: string,
-  andStr?: string,
-  noOxford?: boolean
+  cutoff?: number, // defaults to 4
+  placeholder?: string, // defaults to 'Things'
+  andStr?: string, // defaults to 'and'
+  noOxford?: boolean // defaults to false
 }) => string
 ```
 

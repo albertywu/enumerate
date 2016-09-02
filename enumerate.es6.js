@@ -1,5 +1,5 @@
 // (words: string[], cutoff: number, placeholder: string) => string
-export const enumerate = (words, cutoff = 4, placeholder = 'Things') => {
+export const enumerate = (words, cutoff = 4, placeholder = 'Things', andStr = 'and', noOxford) => {
     if (words.length === 0)
         return '';
     else if (words.length === 1)
@@ -7,7 +7,7 @@ export const enumerate = (words, cutoff = 4, placeholder = 'Things') => {
     else if (words.length >= cutoff)
         return `${words.length} ${placeholder}`;
     else
-        return `${words.slice(0, words.length - 1).join(', ')}${words.length === 2 ? '' : ','} and ${[...words].pop()}`;
+        return `${words.slice(0, words.length - 1).join(', ')}${words.length === 2 || noOxford ? '' : ','} ${andStr} ${[...words].pop()}`;
 };
 export const foo = 43;
 export const boo = 43;

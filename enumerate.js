@@ -1,7 +1,9 @@
 "use strict";
-exports.enumerate = function (words, cutoff, placeholder) {
+exports.enumerate = function (words, cutoff, placeholder, andStr, noOxford) {
     if (cutoff === void 0) { cutoff = 4; }
     if (placeholder === void 0) { placeholder = 'Things'; }
+    andSt = andStr || 'and'; // allows falsey values
+    if (noOxford === void 0) { noOxford = false; }
     if (words.length === 0)
         return '';
     else if (words.length === 1)
@@ -9,5 +11,5 @@ exports.enumerate = function (words, cutoff, placeholder) {
     else if (words.length >= cutoff)
         return words.length + " " + placeholder;
     else
-        return "" + words.slice(0, words.length - 1).join(', ') + (words.length === 2 ? '' : ',') + " and " + words.slice().pop();
+        return "" + words.slice(0, words.length - 1).join(', ') + (words.length === 2 || noOxford ? '' : ',') + " " + andStr + " " + words.slice().pop();
 };

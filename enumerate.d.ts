@@ -5,10 +5,4 @@ export interface Args {
     andStr?: string;
     noOxford?: boolean;
 }
-export declare const enumerate: ({
-  words,
-  cutoff = 4,
-  placeholder = 'Things',
-  andStr = 'and',
-  noOxford = false
-}: Args) => string;
+export declare function enumerate({words, cutoff, placeholder, andStr, noOxford}: Args): string;

@@ -6,9 +6,9 @@
   "main:esnext": "./enumerate.es6.js",
   "typings": "./enumerate.d.ts",
   "scripts": {
-    "build": "./node_modules/typescript/bin/tsc -d -t es6 -m es2015 enumerate.ts && mv enumerate.js enumerate.es6.js && tsc -t es5 -m commonjs ./enumerate.ts;",
-    "test": "./node_modules/mocha/bin/mocha",
-    "watch": "./node_modules/typescript/bin/tsc -w -t es5 -m commonjs ./enumerate.ts;"
+    "build": "tsc -d -t es6 -m es2015 enumerate.ts && mv enumerate.js enumerate.es6.js && tsc -t es5 -m commonjs enumerate.ts;",
+    "test": "mocha",
+    "watch": "tsc -w -t es5 -m commonjs enumerate.ts;"
   },
   "repository": {
     "type": "git",
